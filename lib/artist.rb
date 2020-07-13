@@ -1,3 +1,20 @@
+
+class Song
+ 
+  attr_accessor :title, :artist
+ 
+  def initialize(title)
+    @title = title
+  end
+ 
+end
+
+
+
+
+
+
+
 class Artist
   attr_accessor :name, :genre
  
@@ -13,12 +30,3 @@ hotline_bling = Song.new("Hotline Bling")
  
 hotline_bling.artist = drake
 
-class Song
- 
-  attr_accessor :title, :artist
- 
-  def initialize(title)
-    @title = title
-  end
- 
-end
